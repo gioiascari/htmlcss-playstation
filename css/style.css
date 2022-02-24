@@ -3,3 +3,12 @@
     padding: 5px;
 
 }
+
+.bg { 
+    background-image: url('../img/jumbo-bg.png');
+    height: 70vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
