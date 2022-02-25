@@ -23,6 +23,8 @@
   background-size: cover;
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
+
+/**************OVERLAY*********************/
 .overlay {
   opacity: 0.5;
   transition: transform 0.3s;
@@ -32,4 +34,14 @@
   cursor: pointer;
   transform: scale(1.2);
   border-bottom: 1px solid blue;
+}
+/**************OVERLAY*********************/
+
+.zoom {
+  transition: ease 0.3s;
+}
+.zoom:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
