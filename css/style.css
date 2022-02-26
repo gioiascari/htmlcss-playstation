@@ -36,7 +36,12 @@
   border-bottom: 1px solid blue;
 }
 /**************OVERLAY*********************/
-
+#dark-blue {
+  background-color: #161c3b;
+}
+.blue {
+  background-color: #00439c;
+}
 .zoom {
   transition: ease 0.3s;
 }
@@ -44,4 +49,7 @@
   cursor: pointer;
   transform: scale(1.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.margin {
+  margin-right: 10px;
 }
