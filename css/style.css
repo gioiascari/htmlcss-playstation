@@ -9,9 +9,12 @@
   background-image: url("../img/jumbo-bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
   margin-top: 50px;
   background-size: cover;
+}
+
+.returnal {
+  padding-top: 300px;
 }
 .beige {
   background-color: #bebcbb;
@@ -73,8 +76,7 @@ ul {
   position: static;
 }
 
-@media screen and(max-width: 600px;) {
-  .ac-d-none {
-    display: none;
-  }
+.btn:hover {
+  outline-color: aquamarine 2px solid;
+  outline-style: dotted;
 }
