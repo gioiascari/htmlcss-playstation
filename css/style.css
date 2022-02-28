@@ -14,7 +14,7 @@
   background-size: cover;
 }
 .beige {
-  background-color: rgb(198, 198, 175);
+  background-color: #bebcbb;
 }
 .ac-bottom-0 {
   bottom: 10%;
@@ -30,12 +30,10 @@
 /**************OVERLAY*********************/
 .overlay {
   opacity: 0.5;
-  transition: transform 0.3s;
 }
 .overlay:hover {
   opacity: 1;
   cursor: pointer;
-  transform: scale(1.2);
   border-bottom: 1px solid blue;
 }
 /**************OVERLAY*********************/
@@ -73,4 +71,10 @@ ul {
 }
 .dropdown {
   position: static;
+}
+
+@media screen and(max-width: 600px;) {
+  .ac-d-none {
+    display: none;
+  }
 }
